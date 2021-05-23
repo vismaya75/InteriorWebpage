@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+.top-background{
+    background-image:url('img.jpeg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.navigation{
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    background-color: gray;
+    width: 100%;
+    
+    
+}
+.menu-ul{
+    padding: 0px;
+}
+
+
+.menu-ul li{
+    display: inline-block;
+    font-size: small-caps;
+    letter-spacing: 3px;
+    padding: 1px 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    display: block;
+    padding: 0 5px;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+.page-title{
+    text-align: center;
+    font-size: 50px;
+    padding: 200px;
+    color:white;
+    letter-spacing: 10px;
+    text-shadow: 0 0 5px white;
+}
+.description, .title{
+    font-variant: small-caps;
+    font-size: 30px;
+    margin: 20px;
+}
+span{
+    color: rgb(90, 89, 89);
+}
+ .page-blocks{
+    text-align: center;
+    margin-top: 50px;
+
+} 
+.title{
+    letter-spacing: 10px;
+    color:black;
+}
+.design img{
+    height: 200px;
+    max-width: 950px;
+    margin: 15px;
+    
+
+}
+
+ 
+
+.flex-block{
+     display: flex; 
+     flex-wrap: wrap; 
+    justify-content: center;
+     overflow: hidden; 
+}
+.why-us-flex-item{
+    background: gray;
+    color: white;
+    width: 55%;
+    padding: 40px;
+    margin: 20px;
+    
+}
+
+.block-label{
+    font-variant: small-caps;
+    font-size: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+.block-description{
+    text-align: justify;
+    font-size: 25px;
+    font-style: italic;
+    /* font-variant: small-caps; */
+
+}
+.why-us-flex-items{
+    background: gray;
+    color: white;
+    width: 30%;
+    padding: 40px;
+    margin: 20px;
+   
+}
+
+.block-number{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+.contact-flex-item{
+    background: gray;
+    color:white;
+    width: 17%;
+    padding: 40px;
+    margin: 20px;
+
+}
+.text{
+    font-style:inherit ;
+    font-size: 20px;
+}
+h3{
+    font-size: 23px;
+}
